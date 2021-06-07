@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+    
+    background-color:#2D2E32;
+}
+
+
+.topnav {
+  font-family: 'Architects Daughter', cursive;
+    background-color:#2D2E32;
+    overflow: hidden;
+    display:flex;
+    flex-direction:row;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  /* Style the links inside the navigation bar */
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #FC554E;
+    color:black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a:focus {
+    color: #6FF3A5;
+  }
+
+  .introduction{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    height:90vh;
+    justify-content: center;
+   
+  }
+  .intro{
+   
+    font-family: 'ZCOOL KuaiLe', cursive;
+    color: #6FF3A5;
+    font-size:50px;
+
+  }
+  .quote{
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: #fff;
+    font-size:30px;
+    margin-top: 20px;
+  }
+  .me{
+    color: #7F7F87;
+    font-family: 'Architects Daughter', cursive;
+  }
