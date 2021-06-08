@@ -5,7 +5,9 @@
     
     background-color:#2D2E32;
 }
-
+body{
+  
+}
 
 .topnav {
   font-family: 'Architects Daughter', cursive;
@@ -17,7 +19,7 @@
     justify-content: center;
   }
   
-  /* Style the links inside the navigation bar */
+
 .topnav a {
     color: #f2f2f2;
     text-align: center;
@@ -26,39 +28,108 @@
     font-size: 17px;
   }
   
-  /* Change the color of links on hover */
+
   .topnav a:hover {
     background-color: #FC554E;
     color:black;
   }
   
-  /* Add a color to the active/current link */
+
   .topnav a:focus {
     color: #6FF3A5;
   }
 
+  
+.front-page{
+  display: flex;
+ flex-direction: row;
+ 
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
   .introduction{
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     margin-left: 20px;
-    height:90vh;
-    justify-content: center;
    
+   
+    
   }
   .intro{
    
-    font-family: 'ZCOOL KuaiLe', cursive;
+     font-family: 'ZCOOL KuaiLe', cursive;
     color: #6FF3A5;
     font-size:50px;
-
+    background-color: transparent;
   }
   .quote{
     font-family: 'Baloo Tammudu 2', cursive;
     color: #fff;
     font-size:30px;
     margin-top: 20px;
+    background-color: transparent;
   }
   .me{
-    color: #7F7F87;
-    font-family: 'Architects Daughter', cursive;
+    padding:10px;
   }
+  .me,strong{
+  
+  
+    border-radius: 30px;
+    color: #212122;
+    font-family: 'Architects Daughter', cursive;
+    background-color: white;
+  } 
+  .front-page img{
+    padding: auto;
+    border-radius:40px 40px 40px 40px;
+    height: 50vh;
+  }
+
+
+
+.skills-icon:nth-child(1){
+  color:red;
+  /* display:inline;
+  color: #6FF3A5;
+  background-color: #25262A;
+  padding:1.3%;
+  font-size:20px;
+  border-radius:50%;
+  justify-content:center;
+  align-items: center; */
+
+} 
+.skills-icon:nth-child(2){
+  color:green;
+  /* display:inline;
+  color: #FF524E;
+  background-color: #25262A;
+  padding:1.3%;
+  font-size:20px;
+  border-radius:50%;
+  justify-content:center;
+  align-items: center; */
+
+} 
+.skills{
+  background-color: #25262A;
+}
+
+.card{
+  background-color:black;
+  
+}
+.skills p{
+  color:#72EDAC;
+  font-family: 'Architects Daughter', cursive;
+}
+.skills .container{
+  font-family: 'Baloo Tammudu 2', cursive;
+  color:#909195;
+  overflow:auto;
+  
+}
+
